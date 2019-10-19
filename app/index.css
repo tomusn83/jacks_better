@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+#root {
+  background-color: lightgray;
+}
+
+#game_wrapper {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  background-color: blue;
+}
+
+.index {
+  width: 50px;
+  float: left;
+}
+
+.card_base {
+  width: 154px;
+  height: 240px;
+  float: left;
+  margin: 0 5px;
+  background-image: url("images/all_cards.png");
+  background-position: -154px -960px;
+}
+
+#card_row {
+  margin: 0 auto;
+  width: 820px;
+}
